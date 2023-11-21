@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+}
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 1px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.login-box h1{
+    text-align: center;
+    color: chartreuse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-box{
+    position: relative;
+}
+.user-box label{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+}
+.user-box input{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    transition: 0.5s;
+}
+.user-box input:focus ~ label,
+.user-box input:valid ~ label{
+    top: -20px;
+    color: rgb(12, 236, 120);
+    font-size: 12px;
+}
+.connecter{
+    display: flex;
+    justify-content: space-between;
+}
+.connecter input,a{
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(128, 255, 0, 0.742);
+    border-radius: 30px;
+    padding: 8px;
+    border: 1px;
+}
+.connecter a{
+    text-decoration: none;
+}
+.connecter a:hover{
+    background-color: rgb(19, 126, 234);
+}
+.connecter input:hover{
+    color: rgba(128, 255, 0, 0.742);
+    background-color: rgb(19, 126, 234);
+}
