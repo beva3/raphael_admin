@@ -1,7 +1,7 @@
 #include "seconnecter.h"
 
 int main(){
-    SIGNIN user = {"raphael","123456kl789"};
-    write(user);
+    SIGNIN user = {"raphael","123456f"};
+    write(user,"123456");
     return 0;
 }

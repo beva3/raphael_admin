@@ -13,6 +13,8 @@
     }SIGNIN;
     
 
-    void write(SIGNIN user);
+    void write(SIGNIN user,char* c_spasswd);
+    int verifie(SIGNIN user,char* c_spasswd);
+
 
 #endif
